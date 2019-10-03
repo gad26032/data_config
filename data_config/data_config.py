@@ -2,6 +2,11 @@
 """
 usage in the code
 from data_config.data_config import *
+
+usage in cli
+python data_config/data_config.py --action check_data
+python data_config/data_config.py --action show_tree
+
 """
 import argparse
 import logging
