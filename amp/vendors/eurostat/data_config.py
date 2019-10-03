@@ -3,11 +3,4 @@ LOCAL_GAD_GOLDEN_CHUNKS_V3_UNKNOWN_CSV = '/home/gad/wd/projects/thomson_reuters/
 LOCAL_GAD_ST_RAW_ACTIVITY = '/home/gad/wd/projects/thomson_reuters/test_data/stocktwits/activity'
 
 
-EXPORT_DATA = {
-    'description': 'Beautiful description for this data',
-    'data': [
-        LOCAL_GAD_EXPORTER_TEST,
-        LOCAL_GAD_GOLDEN_CHUNKS_V3_UNKNOWN_CSV,
-        LOCAL_GAD_ST_RAW_ACTIVITY,
-    ]
-}
+DESCRIPTION = 'Beautiful description for this data'
